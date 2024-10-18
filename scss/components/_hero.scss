@@ -1,0 +1,120 @@
+.hero__big {
+    width: 100%;
+    height: auto;
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    .hero__left_box {
+        max-width: 805px;
+        width: 100%;
+        height: 781px;
+        background: #CBE4E8;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left__box__img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .hero__login__text {
+        // font-family: 'Inter';
+        font-size: 36px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0.04em;
+        text-align: left;
+        color: #000000;
+        margin-bottom: 24px;
+    }
+
+    .hero__enter__text {
+        // font-family: 'Poppins';
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        text-align: left;
+        color: #000000;
+        margin-bottom: 48px;
+    }
+
+    .hero__form {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .hero_input_box {
+            width: 370px;
+            height: 32px;
+            border-bottom: 1px solid #c8c8c8;
+
+            .hero__form__user {
+                width: 100%;
+                height: 32px;
+                background: none;
+                outline: none;
+                border: none;
+                // font-family: 'Poppins';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                color: #000000;
+            }
+
+            .hero__form__password {
+                width: 100%;
+                height: 32px;
+                background: none;
+                outline: none;
+                border: none;
+                // font-family: 'Poppins';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                color: #000000;
+            }
+        }
+
+        .hero__form__submit__group {
+            display: flex;
+            align-items: center;
+            gap: 87px;
+
+            .hero__submit__btn {
+                width: 143px;
+                height: 56px;
+                border-radius: 4px;
+                background: #DB4444;
+                // font-family: 'Poppins';
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 24px;
+                text-align: center;
+                color: #FAFAFA;
+
+                &:hover {
+                    background: #FAFAFA;
+                    border-color: #DB4444;
+                    color: #DB4444;
+                    transition: .2s;
+                }
+            }
+
+            .hero__savalo__text {
+                // font-family: 'Poppins';
+                font-size: 16px;
+                font-weight: 400;
+                line-height: 24px;
+                text-align: left;
+                color: #DB4444;
+                cursor: pointer;
+            }
+        }
+    }
+}
